@@ -46,28 +46,28 @@ To run this project locally, follow these steps:
 ## Project Structure
 
 Pretium-demo-app/
-├── android/                   # Android specific project files
-├── assets/                    # Application assets like images, fonts, etc.
-│   └── images/                # Directory for image files
-├── ios/                       # iOS specific project files
-├── lib/                       # Contains the main Dart code for the application
-│   ├── app_preference/        # Handles application preferences, e.g., using shared_preferences to check for  first-time user.
-│   ├── auth/                  # Contains logic and screens related to authentication (login, registration).
-│   ├── display/               # Likely contains widgets or screens related to general display or UI components.
-│   ├── navigation/            # Handles navigation logic within the application.            
-│   └── main.dart              # The entry point of the application.
-├── linux/                     # Linux specific project files (if multi-platform)
-├── macos/                     # macOS specific project files (if multi-platform)
-├── test/                      # Contains automated tests for your application.
+├── android/                  
+├── assets/                    
+│   └── images/                
+├── ios/                       
+├── lib/                       
+│   ├── app_preference/        
+│   ├── auth/                 
+│   ├── display/               
+│   ├── navigation/                      
+│   └── main.dart              
+├── linux/                     
+├── macos/                     
+├── test/                      
 │   └── widget_test.dart
-├── web/                       # Web specific project files (if multi-platform)
-├── windows/                   # Windows specific project files (if multi-platform)
-├── .gitignore                 # Specifies intentionally untracked files that Git should ignore.
-├── .metadata                  # Flutter project metadata.
-├── analysis_options.yaml      # Configuration for the Dart analyzer.
-├── pubspec.yaml               # Defines the project's dependencies and other metadata.
-├── pubspec.lock               # Records the specific versions of dependencies used.
-└── README.md                  # This file.
+├── web/                       
+├── windows/                  
+├── .gitignore                
+├── .metadata                  
+├── analysis_options.yaml     
+├── pubspec.yaml               
+├── pubspec.lock               
+└── README.md                 
 
 ## Contact
 
